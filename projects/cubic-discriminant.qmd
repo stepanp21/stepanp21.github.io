@@ -1,3 +1,24 @@
 ---
 title: "Tangent Developable of a Twisted Cubic"
+author: "Stepan Paul and Adrien Abgrall"
+date: "2025-02-28"
+description: "Visulaizations of the tangent developable of a twisted cubic curve illustrating its ruling and flat metric."
+image: "twisted-cubic-tangent-developable.png"
+image-alt: "Grid on the tangent developable of a twisted cubic curve"
 ---
+This is a page about the tangent developable of a twisted cubic.
+
+<script src="https://www.desmos.com/api/v1.11/calculator.js?apiKey=4f603473e10e40a1ba9b9bc2e52866d1"></script>
+
+<div id="calculator" style="width: 600px; height: 400px;"></div>
+
+<script>
+  var elt = document.getElementById('calculator');
+  var options = {
+    keypad: false,
+    expressions: false
+  }
+  var calculator = Desmos.GraphingCalculator(elt, options);
+</script>
+
+(used curl -H 'Accept: application/json' https://www.desmos.com/calculator/0ovfwwmfrb > ~/desmos_stuff/mygraph.json)

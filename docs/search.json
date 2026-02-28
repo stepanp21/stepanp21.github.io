@@ -33,5 +33,19 @@
     "title": "Stepan Paul",
     "section": "Fun stufff",
     "text": "Fun stufff\nGraph with dot"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Tangent Developable of a Twisted Cubic\n\n\nVisulaizations of the tangent developable of a twisted cubic curve illustrating its ruling and flat metric.\n\n\n\nStepan Paul and Adrien Abgrall\n\n\nFeb 28, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpindle Earth\n\n\nA visualization of the spindle earth, a surface of revolution with constant positive curvature and two singular points.\n\n\n\nStepan Paul and Steve Trettel\n\n\nFeb 28, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/cubic-discriminant.html",
+    "href": "projects/cubic-discriminant.html",
+    "title": "Tangent Developable of a Twisted Cubic",
+    "section": "",
+    "text": "This is a page about the tangent developable of a twisted cubic."
   }
 ]

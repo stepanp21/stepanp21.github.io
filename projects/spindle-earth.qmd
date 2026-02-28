@@ -1,3 +1,8 @@
 ---
 title: "Spindle Earth"
+author: "Stepan Paul and Steve Trettel"
+date: "2025-02-28"
+description: "A visualization of the spindle earth, a surface of revolution with constant positive curvature and two singular points."
+image: "spindle-earth-still.png"
+image-alt: "A spindle shaped globe"
 ---
