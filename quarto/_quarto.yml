@@ -1,0 +1,22 @@
+project:
+  type: website
+  resources:
+    - "three-toy/"
+  output-dir: docs
+
+website:
+  title: "Stepan Paul"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme:
+      - yeti
+    css: styles.css
+    toc: true
+
+

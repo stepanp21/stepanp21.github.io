@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "spindle-earth/QUICKSTART.html",
+    "href": "spindle-earth/QUICKSTART.html",
+    "title": "Quickstart",
+    "section": "",
+    "text": "This guide is for someone new to JavaScript who wants to poke around and change things.\n\n\nYou need Node.js installed (any recent version). Then in a terminal:\nnpm install\nnpm run dev\nThis starts a local dev server. Open http://localhost:5173/ in your browser. When you edit a file and save, the page reloads automatically.\n\n\n\nEvery demo file (e.g. demos/spindle-slider/main.js) follows the same structure, top to bottom:\n\n\nconst scene = new THREE.Scene();\nconst camera = new THREE.PerspectiveCamera(40, ...);\ncamera.position.set(0, 2, 5);\nconst renderer = new THREE.WebGLRenderer({ antialias: true });\nThis is boilerplate that creates a 3D world and puts a camera in it. The first argument to PerspectiveCamera is the field of view in degrees. camera.position.set(x, y, z) moves the camera — try changing the numbers.\n\n\n\nconst light = new THREE.DirectionalLight(0xffffff, 5);\nlight.position.set(5, Math.tan(20 * Math.PI / 180) * 5, 0);\nscene.add(light);\nscene.add(new THREE.AmbientLight(0xffffff, 0.5));\n\nDirectionalLight is like the sun — it shines in one direction everywhere. The first argument is the color (0xffffff = white), the second is the intensity. light.position controls where it shines from.\nAmbientLight is uniform fill light so shadowed parts aren’t completely black. The second argument (0.5) is how bright it is.\n\nThings to try: - Change the color: 0xff8800 for warm orange, 0x88ccff for cool blue. - Change the intensity (the number after the color). - Move the light: light.position.set(0, 10, 0) puts it directly above.\n\n\n\nscene.background = galaxyTexture;          // image background\nscene.background = new THREE.Color(0x0a0a1a);  // solid color\nAny hex color works. 0x000000 is black, 0xffffff is white. The stars texture is loaded from assets/textures/stars-small.png.\n\n\n\nThis is the interesting part. Each demo computes a profile curve — a 2D curve that gets spun around the vertical axis to make the surface.\nconst { ts, values: hValues } = quadrature(\n  s =&gt; Math.sqrt(1 - a * a * Math.cos(s) ** 2),\n  0, Math.PI, 400,\n);\nThis says: integrate the function sqrt(1 - a² cos²(s)) from 0 to π using 400 steps. The result is an array of s-values (ts) and the corresponding accumulated heights (hValues).\nThen the profile points are built:\nconst points = ts.map((s, i) =&gt;\n  new THREE.Vector3(a * Math.sin(s), hValues[i] - totalHeight / 2, 0),\n);\nEach point has x = r(s) (the radius) and y = h(s) (the height). The - totalHeight / 2 centers the shape vertically.\n\n\n\nconst surface = {\n  evaluate(u, v) {\n    const p = profileCurve.evaluate(v);\n    return new THREE.Vector3(\n      p.x * Math.cos(u),\n      p.y,\n      -p.x * Math.sin(u),\n    );\n  },\n  getDomain() {\n    return { uMin: 0, uMax: 2 * Math.PI, vMin: 0, vMax: 1 };\n  },\n};\nThis spins the profile curve around the y-axis. u is the angle around the axis (0 to 2π), v walks along the profile (0 to 1). You shouldn’t need to touch this.\n\n\n\nconst mesh = new SurfaceMesh(surface, {\n  color: 0xcc6633,\n  roughness: 0.6,\n  metalness: 0.1,\n  uSegments: 96,\n  vSegments: 48,\n});\n\ncolor: the surface color (only visible when there’s no texture shader).\nroughness: 0 = mirror-smooth, 1 = matte.\nmetalness: 0 = plastic/stone, 1 = metal.\nuSegments / vSegments: how finely the surface is tessellated. Higher = smoother but slower.\n\n\n\n\nfunction animate() {\n  requestAnimationFrame(animate);\n  mesh.rotation.y = clock.getElapsedTime() * 0.1;\n  renderer.render(scene, camera);\n}\nThis runs every frame. mesh.rotation.y slowly spins the surface. Change 0.1 to spin faster or slower (or 0 to stop).\n\n\n\n\nEdit index.html and change the &lt;script&gt; src:\n&lt;script type=\"module\" src=\"/demos/spindle-slider/main.js\"&gt;&lt;/script&gt;\n&lt;script type=\"module\" src=\"/demos/hyperbolic-slider/main.js\"&gt;&lt;/script&gt;\n&lt;script type=\"module\" src=\"/demos/pseudosphere-slider/main.js\"&gt;&lt;/script&gt;\n&lt;script type=\"module\" src=\"/demos/spindle-basic/main.js\"&gt;&lt;/script&gt;\nOnly one should be uncommented at a time.\n\n\n\nThe official docs are at https://threejs.org/docs/. The most relevant pages:\n\nMeshPhysicalMaterial — the material properties (color, roughness, metalness)\nDirectionalLight — the sun-like light\nPerspectiveCamera — the camera"
+  },
+  {
+    "objectID": "spindle-earth/QUICKSTART.html#setup",
+    "href": "spindle-earth/QUICKSTART.html#setup",
+    "title": "Quickstart",
+    "section": "",
+    "text": "You need Node.js installed (any recent version). Then in a terminal:\nnpm install\nnpm run dev\nThis starts a local dev server. Open http://localhost:5173/ in your browser. When you edit a file and save, the page reloads automatically."
+  },
+  {
+    "objectID": "spindle-earth/QUICKSTART.html#anatomy-of-a-demo",
+    "href": "spindle-earth/QUICKSTART.html#anatomy-of-a-demo",
+    "title": "Quickstart",
+    "section": "",
+    "text": "Every demo file (e.g. demos/spindle-slider/main.js) follows the same structure, top to bottom:\n\n\nconst scene = new THREE.Scene();\nconst camera = new THREE.PerspectiveCamera(40, ...);\ncamera.position.set(0, 2, 5);\nconst renderer = new THREE.WebGLRenderer({ antialias: true });\nThis is boilerplate that creates a 3D world and puts a camera in it. The first argument to PerspectiveCamera is the field of view in degrees. camera.position.set(x, y, z) moves the camera — try changing the numbers.\n\n\n\nconst light = new THREE.DirectionalLight(0xffffff, 5);\nlight.position.set(5, Math.tan(20 * Math.PI / 180) * 5, 0);\nscene.add(light);\nscene.add(new THREE.AmbientLight(0xffffff, 0.5));\n\nDirectionalLight is like the sun — it shines in one direction everywhere. The first argument is the color (0xffffff = white), the second is the intensity. light.position controls where it shines from.\nAmbientLight is uniform fill light so shadowed parts aren’t completely black. The second argument (0.5) is how bright it is.\n\nThings to try: - Change the color: 0xff8800 for warm orange, 0x88ccff for cool blue. - Change the intensity (the number after the color). - Move the light: light.position.set(0, 10, 0) puts it directly above.\n\n\n\nscene.background = galaxyTexture;          // image background\nscene.background = new THREE.Color(0x0a0a1a);  // solid color\nAny hex color works. 0x000000 is black, 0xffffff is white. The stars texture is loaded from assets/textures/stars-small.png.\n\n\n\nThis is the interesting part. Each demo computes a profile curve — a 2D curve that gets spun around the vertical axis to make the surface.\nconst { ts, values: hValues } = quadrature(\n  s =&gt; Math.sqrt(1 - a * a * Math.cos(s) ** 2),\n  0, Math.PI, 400,\n);\nThis says: integrate the function sqrt(1 - a² cos²(s)) from 0 to π using 400 steps. The result is an array of s-values (ts) and the corresponding accumulated heights (hValues).\nThen the profile points are built:\nconst points = ts.map((s, i) =&gt;\n  new THREE.Vector3(a * Math.sin(s), hValues[i] - totalHeight / 2, 0),\n);\nEach point has x = r(s) (the radius) and y = h(s) (the height). The - totalHeight / 2 centers the shape vertically.\n\n\n\nconst surface = {\n  evaluate(u, v) {\n    const p = profileCurve.evaluate(v);\n    return new THREE.Vector3(\n      p.x * Math.cos(u),\n      p.y,\n      -p.x * Math.sin(u),\n    );\n  },\n  getDomain() {\n    return { uMin: 0, uMax: 2 * Math.PI, vMin: 0, vMax: 1 };\n  },\n};\nThis spins the profile curve around the y-axis. u is the angle around the axis (0 to 2π), v walks along the profile (0 to 1). You shouldn’t need to touch this.\n\n\n\nconst mesh = new SurfaceMesh(surface, {\n  color: 0xcc6633,\n  roughness: 0.6,\n  metalness: 0.1,\n  uSegments: 96,\n  vSegments: 48,\n});\n\ncolor: the surface color (only visible when there’s no texture shader).\nroughness: 0 = mirror-smooth, 1 = matte.\nmetalness: 0 = plastic/stone, 1 = metal.\nuSegments / vSegments: how finely the surface is tessellated. Higher = smoother but slower.\n\n\n\n\nfunction animate() {\n  requestAnimationFrame(animate);\n  mesh.rotation.y = clock.getElapsedTime() * 0.1;\n  renderer.render(scene, camera);\n}\nThis runs every frame. mesh.rotation.y slowly spins the surface. Change 0.1 to spin faster or slower (or 0 to stop)."
+  },
+  {
+    "objectID": "spindle-earth/QUICKSTART.html#switching-demos",
+    "href": "spindle-earth/QUICKSTART.html#switching-demos",
+    "title": "Quickstart",
+    "section": "",
+    "text": "Edit index.html and change the &lt;script&gt; src:\n&lt;script type=\"module\" src=\"/demos/spindle-slider/main.js\"&gt;&lt;/script&gt;\n&lt;script type=\"module\" src=\"/demos/hyperbolic-slider/main.js\"&gt;&lt;/script&gt;\n&lt;script type=\"module\" src=\"/demos/pseudosphere-slider/main.js\"&gt;&lt;/script&gt;\n&lt;script type=\"module\" src=\"/demos/spindle-basic/main.js\"&gt;&lt;/script&gt;\nOnly one should be uncommented at a time."
+  },
+  {
+    "objectID": "spindle-earth/QUICKSTART.html#three.js-docs",
+    "href": "spindle-earth/QUICKSTART.html#three.js-docs",
+    "title": "Quickstart",
+    "section": "",
+    "text": "The official docs are at https://threejs.org/docs/. The most relevant pages:\n\nMeshPhysicalMaterial — the material properties (color, roughness, metalness)\nDirectionalLight — the sun-like light\nPerspectiveCamera — the camera"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Stepan Paul",
+    "section": "",
+    "text": "I am an Associate Teaching Professor at North Carolina State University where I’ve worked since 2020. I focus on teaching, curriculum development, mathematical illustration, and service to the undergraduate program in the department."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Stepan Paul",
+    "section": "Education",
+    "text": "Education\nUniversity of California, Santa Barbara | Ph.D. in Mathematics, 2013\nDuke University | B.S. in Mathematics, 2007"
+  },
+  {
+    "objectID": "index.html#work-history",
+    "href": "index.html#work-history",
+    "title": "Stepan Paul",
+    "section": "Work History",
+    "text": "Work History\n\n\n\n\n\n\n\n\nNorth Carolina State University\nAssociate Teaching Professor\n2020 - present\n\n\nHarvard University\nPreceptor\n2017 - 2020\n\n\nUniversity of California, Santa Barbara\nEAF Lecturer\n2015 - 2013\n\n\nCalifornia Polytechnic State University, San Luis Obispo\nLecturer\n2013 - 2015"
+  },
+  {
+    "objectID": "index.html#fun-stufff",
+    "href": "index.html#fun-stufff",
+    "title": "Stepan Paul",
+    "section": "Fun stufff",
+    "text": "Fun stufff\nGraph with dot"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site hello world"
+  }
+]

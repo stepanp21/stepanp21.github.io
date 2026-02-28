@@ -1,0 +1,32 @@
+---
+title: "Stepan Paul"
+
+about:
+    template: solana
+    image: headshot-small2.jpeg
+    links:
+        - icon: "envelope"
+          text: Email
+          url: "mailto:sspaul2@ncsu.edu"
+---
+
+I am an Associate Teaching Professor at North Carolina State University where I've worked since 2020. I focus on teaching, curriculum development, mathematical illustration, and service to the undergraduate program in the department.
+
+## Education
+
+University of California, Santa Barbara | Ph.D. in Mathematics, 2013
+
+Duke University | B.S. in Mathematics, 2007
+
+## Work History
+
+| | | |
+| --- | --- | --- |
+| North Carolina State University | Associate Teaching Professor | 2020 - present |
+| Harvard University | Preceptor | 2017 - 2020 |
+| University of California, Santa Barbara | EAF Lecturer | 2015 - 2013 |
+| California Polytechnic State University, San Luis Obispo | Lecturer | 2013 - 2015 |
+
+## Fun stufff
+
+[Graph with dot](three-toy)
