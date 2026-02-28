@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site hello world"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Stepan Paul",
+    "section": "",
+    "text": "I am an Associate Teaching Professor at North Carolina State University where I’ve worked since 2020. I focus on teaching, curriculum development, mathematical illustration, and service to the undergraduate program in the department."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Stepan Paul",
+    "section": "Education",
+    "text": "Education\nUniversity of California, Santa Barbara | Ph.D. in Mathematics, 2013\nDuke University | B.S. in Mathematics, 2007"
+  },
+  {
+    "objectID": "index.html#work-history",
+    "href": "index.html#work-history",
+    "title": "Stepan Paul",
+    "section": "Work History",
+    "text": "Work History\n\n\n\n\n\n\n\n\nNorth Carolina State University\nAssociate Teaching Professor\n2020 - present\n\n\nHarvard University\nPreceptor\n2017 - 2020\n\n\nUniversity of California, Santa Barbara\nEAF Lecturer\n2015 - 2013\n\n\nCalifornia Polytechnic State University, San Luis Obispo\nLecturer\n2013 - 2015"
+  },
+  {
+    "objectID": "index.html#fun-stufff",
+    "href": "index.html#fun-stufff",
+    "title": "Stepan Paul",
+    "section": "Fun stufff",
+    "text": "Fun stufff\nGraph with dot"
+  }
+]
