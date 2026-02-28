@@ -1,0 +1,3 @@
+---
+title: "Tangent Developable of a Twisted Cubic"
+---
