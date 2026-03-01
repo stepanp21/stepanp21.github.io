@@ -164,7 +164,24 @@ ul.task-list li input[type="checkbox"] {
     keypad: false,
     expressions: false
   }
+  var calculator = Desmos.GraphingCalculator(elt, options);
+</script>
+<!-- Code to get this graph from Desmos:
+`curl -H 'Accept: application/json' https://www.desmos.com/calculator/0ovfwwmfrb > ~/desmos_stuff/mygraph.json` -->
+<div id="calculator2" style="width: 600px; height: 400px;">
+
+</div>
+<script>
+  var elt = document.getElementById('calculator2');
+  var options = {
+  }
   var calculator = Desmos.Calculator3D(elt, options);
+  
+  fetch('cubic-discriminant-desmos.json')
+    .then(response => response.json())
+    .then(data => {
+      calculator.setState(data.state);
+    });
 </script>
 
 

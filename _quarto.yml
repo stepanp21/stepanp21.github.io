@@ -2,6 +2,7 @@ project:
   type: website
   resources:
     - "three-toy/"
+    - projects/*.json
   output-dir: docs
 
 website:
