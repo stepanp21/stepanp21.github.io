@@ -11,13 +11,18 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About Me
+      - href: teaching.qmd
+        text: Teaching
+      - href: projects.qmd
+        text: Projects
 
 format:
   html:
     theme:
       - yeti
     css: styles.css
-    toc: true
+    toc: false
 
 

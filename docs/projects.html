@@ -79,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -155,7 +155,15 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">About Me</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+<span class="menu-text">Projects</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -168,9 +176,8 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="SWxsdXN0cmF0aW9u">Illustration <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -199,7 +206,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1740718800000" data-listing-file-modified-sort="1772455491299" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="206">
+<div class="g-col-1" data-index="0" data-categories="SWxsdXN0cmF0aW9u" data-listing-date-sort="1772254800000" data-listing-file-modified-sort="1772483881923" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="282">
 <a href="./projects/cubic-discriminant.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -209,6 +216,11 @@ window.Quarto = {
 <h5 class="no-anchor card-title listing-title">
 Tangent Developable of a Twisted Cubic
 </h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SWxsdXN0cmF0aW9u'); return false;">Illustration</div>
+
+</div>
 <div class="card-text listing-description delink">
 <p>Visulaizations of the tangent developable of a twisted cubic curve illustrating its ruling and flat metric.</p>
 </div>
@@ -217,13 +229,13 @@ Tangent Developable of a Twisted Cubic
 Stepan Paul and Adrien Abgrall
 </div>
 <div class="listing-date">
-Feb 28, 2025
+Feb 28, 2026
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1740718800000" data-listing-file-modified-sort="1772316368948" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="1" data-categories="SWxsdXN0cmF0aW9u" data-listing-date-sort="1772254800000" data-listing-file-modified-sort="1772483900977" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="./projects/spindle-earth.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -233,6 +245,11 @@ Feb 28, 2025
 <h5 class="no-anchor card-title listing-title">
 Spindle Earth
 </h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SWxsdXN0cmF0aW9u'); return false;">Illustration</div>
+
+</div>
 <div class="card-text listing-description delink">
 <p>A visualization of the spindle earth, a surface of revolution with constant positive curvature and two singular points.</p>
 </div>
@@ -241,7 +258,7 @@ Spindle Earth
 Stepan Paul and Steve Trettel
 </div>
 <div class="listing-date">
-Feb 28, 2025
+Feb 28, 2026
 </div>
 </div>
 </div>

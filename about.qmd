@@ -2,4 +2,24 @@
 title: "About"
 ---
 
-About this site hello world
+(Longer "about" exposition)
+
+## Department Roles and Service
+- Mathematics Minor Administrator
+- Faculty Advisory Committee
+- Undergraduate Course and Curriculum Committee
+- Undergraduate Recruitment Committee
+- Undergraduate Advising Committee
+- Course Coordinator: MA 103 (liberal arts math) and MA 242 (multivariable calc)
+
+## Education
+
+- University of California, Santa Barbara -- Ph.D. in Mathematics, 2013
+- Duke University -- B.S. in Mathematics, 2007
+
+## Work History
+
+- North Carolina State University -- Associate Teaching Professor -- 2020 - present
+- Harvard University -- Preceptor -- 2017 - 2020
+- University of California, Santa Barbara -- EAF Lecturer -- 2015 - 2013
+- California Polytechnic State University, San Luis Obispo -- Lecturer -- 2013 - 2015

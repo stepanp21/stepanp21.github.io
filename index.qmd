@@ -8,25 +8,13 @@ about:
         - icon: "envelope"
           text: Email
           url: "mailto:sspaul2@ncsu.edu"
+        - icon: "file-person"
+          text: "CV"
+          url: "https://docs.google.com/document/d/11vqWYgZp8bdWgiQbYHlB3N1lFdD4uenZzbVBylsT4GY/edit?tab=t.0#heading=h.70hhuwiz6np7"
 ---
 
-I am an Associate Teaching Professor at North Carolina State University where I've worked since 2020. I focus on teaching, curriculum development, mathematical illustration, and service to the undergraduate program in the department.
+I am an Associate Teaching Professor of [Mathematics](https://math.ncsu.edu/) at [North Carolina State University](https://www.ncsu.edu/) where I've worked since 2020. I focus on [teaching](teaching.qmd), curriculum development, [mathematical illustration](projects.qmd#category=Illustration), and service to the undergraduate programs in the department.
 
-## Education
+I am the Adminstrator for the [Minor in Mathematics](https://math.sciences.ncsu.edu/undergraduate/undergraduate-programs/mathematics-minor/) at NC State, and I coordinate MA 242 - Calculus III (multivariable and vector calculus) and MA 103 - Topics in Contemporary Mathematics (a liberal arts mathematics course). I also organize the departmental Teaching and Learning Seminar.
 
-University of California, Santa Barbara | Ph.D. in Mathematics, 2013
-
-Duke University | B.S. in Mathematics, 2007
-
-## Work History
-
-| | | |
-| --- | --- | --- |
-| North Carolina State University | Associate Teaching Professor | 2020 - present |
-| Harvard University | Preceptor | 2017 - 2020 |
-| University of California, Santa Barbara | EAF Lecturer | 2015 - 2013 |
-| California Polytechnic State University, San Luis Obispo | Lecturer | 2013 - 2015 |
-
-## Fun stufff
-
-[Graph with dot](three-toy)
+I serve on the Departmental Faculty Advisor Committee, Mathematics Undergraduate Course and Curriculum Committee, Recruitment Committee, and Undergraduate Advising Committee.

@@ -4,14 +4,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site hello world"
+    "text": "(Longer “about” exposition)"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Stepan Paul",
     "section": "",
-    "text": "I am an Associate Teaching Professor at North Carolina State University where I’ve worked since 2020. I focus on teaching, curriculum development, mathematical illustration, and service to the undergraduate program in the department."
+    "text": "I am an Associate Teaching Professor of Mathematics at North Carolina State University where I’ve worked since 2020. I focus on teaching, curriculum development, mathematical illustration, and service to the undergraduate program in the department.\nI am the Adminstrator for the Minor in Mathematics at NC State, and I coordinate MA 242 - Calculus III (multivariable and vector calculus) and MA 103 - Topics in Contemporary Mathematics (a liberal arts mathematics course). I also organize the departmental Teaching and Learning Seminar.\nI serve on the Departmental Faculty Advisor Committee, Mathematics Undergraduate Course and Curriculum Committee, Recruitment Committee, and Undergraduate Advising Committee."
   },
   {
     "objectID": "index.html#education",
@@ -39,7 +39,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Tangent Developable of a Twisted Cubic\n\n\nVisulaizations of the tangent developable of a twisted cubic curve illustrating its ruling and flat metric.\n\n\n\nStepan Paul and Adrien Abgrall\n\n\nFeb 28, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpindle Earth\n\n\nA visualization of the spindle earth, a surface of revolution with constant positive curvature and two singular points.\n\n\n\nStepan Paul and Steve Trettel\n\n\nFeb 28, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Tangent Developable of a Twisted Cubic\n\n\n\nIllustration\n\n\n\nVisulaizations of the tangent developable of a twisted cubic curve illustrating its ruling and flat metric.\n\n\n\nStepan Paul and Adrien Abgrall\n\n\nFeb 28, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpindle Earth\n\n\n\nIllustration\n\n\n\nA visualization of the spindle earth, a surface of revolution with constant positive curvature and two singular points.\n\n\n\nStepan Paul and Steve Trettel\n\n\nFeb 28, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/cubic-discriminant.html",
@@ -47,5 +47,68 @@
     "title": "Tangent Developable of a Twisted Cubic",
     "section": "",
     "text": "This is a page about the tangent developable of a twisted cubic."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\n\nUniversity of California, Santa Barbara – Ph.D. in Mathematics, 2013\nDuke University – B.S. in Mathematics, 2007"
+  },
+  {
+    "objectID": "about.html#work-history",
+    "href": "about.html#work-history",
+    "title": "About",
+    "section": "Work History",
+    "text": "Work History\n\nNorth Carolina State University – Associate Teaching Professor – 2020 - present\nHarvard University – Preceptor – 2017 - 2020\nUniversity of California, Santa Barbara – EAF Lecturer – 2015 - 2013\nCalifornia Polytechnic State University, San Luis Obispo – Lecturer – 2013 - 2015"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I am on Scholarly Reassignment for the Spring 2026 semester. I am attending the trimester program on mathematical illustration at the Institut Henri Poincaré in Paris."
+  },
+  {
+    "objectID": "teaching.html#spring-2026",
+    "href": "teaching.html#spring-2026",
+    "title": "Teaching",
+    "section": "",
+    "text": "I am on Scholarly Reassignment for the Spring 2026 semester. I am attending the trimester program on mathematical illustration at the Institut Henri Poincaré in Paris."
+  },
+  {
+    "objectID": "teaching.html#past-teaching-at-nc-state-university",
+    "href": "teaching.html#past-teaching-at-nc-state-university",
+    "title": "Teaching",
+    "section": "Past Teaching at NC State University",
+    "text": "Past Teaching at NC State University\n\nFall 2025\n\nMA 242H (Honors multivariable calculus)\nMA 425 (Real analysis)\n\n\n\nSpring 2025\n\nMA 242H (Honors multivariable calculus)\nMA 425 (Real analysis)\n\n\n\nFall 2024\n\nMA 241 (Integral calculus)\nMA 242H (Honors multivariable calculus)\nMA 425 (Real analysis)\n\n\n\nSpring 2024\n\nMA 225 (Intro to proofs)\nMA 407 (Abstract algebra)\n\n\n\nFall 2023\n\nMA 242 (Multivariable calculus)\nMA 425 (Real analysis)\n\n\n\nSpring 2023\n\nMA 241 (Integral calculus)\nMA 242 (Multivariable calculus)\n\n\n\nFall 2022\n\nMA 242 (Multivariable calculus)\nMA 425H (Honors real analysis)\n\n\n\nSpring 2022\n\nMA 225 (Foundations of advanced mathematics)\nMA 103 (Liberal arts mathematics)\n\n\n\nFall 2021\n\nMA 242 (Multivariable calculus)\nMA 103 (Liberal arts mathematics)\n\n\n\nSpring 2021\n\nMA 242 (Multivariable calculus)\nMA 425H (Honors real analysis)\n\n\n\nFall 2020\n\nMA 242 (Multivariable calculus)"
+  },
+  {
+    "objectID": "teaching.html#past-teaching-at-harvard",
+    "href": "teaching.html#past-teaching-at-harvard",
+    "title": "Teaching",
+    "section": "Past Teaching at Harvard",
+    "text": "Past Teaching at Harvard\n\nMath 18b/19b (Linear algebra, probability and statistics with computing)\nMath 21a (Multivariable calculus)\nMath 1b (Integral calculus)\nMath S-323 (Vectors–Mathematics for Teaching masters program course)\nMath Mb (Precalculus and calculus blend)\nMath 21b (Linear algebra)"
+  },
+  {
+    "objectID": "teaching.html#past-teaching-at-uc-santa-barbara",
+    "href": "teaching.html#past-teaching-at-uc-santa-barbara",
+    "title": "Teaching",
+    "section": "Past Teaching at UC Santa Barbara",
+    "text": "Past Teaching at UC Santa Barbara\n\nDifferential calculus\nIntegral calculus\nInquiry-oriented linear algebra\nDifferential equations (and inquiry-oriented differential equations)\nVector calculus (and inquiry-oriented vector calculus)\nSeries and PDEs\nComplex analysis II"
+  },
+  {
+    "objectID": "teaching.html#past-teaching-at-cal-poly-san-luis-obispo",
+    "href": "teaching.html#past-teaching-at-cal-poly-san-luis-obispo",
+    "title": "Teaching",
+    "section": "Past Teaching at Cal Poly San Luis Obispo",
+    "text": "Past Teaching at Cal Poly San Luis Obispo\n\nDifferential calculus\nIntegral calculus\nSeries and vectors\nMultivariable calculus\nBusiness calculus\nCalculus for architecture\nLinear algebra and differential equations"
+  },
+  {
+    "objectID": "about.html#department-roles-and-service",
+    "href": "about.html#department-roles-and-service",
+    "title": "About",
+    "section": "Department Roles and Service",
+    "text": "Department Roles and Service\n\nMathematics Minor Administrator\nFaculty Advisory Committee\nUndergraduate Course and Curriculum Committee\nUndergraduate Recruitment Committee\nUndergraduate Advising Committee\nCourse Coordinator: MA 103 (liberal arts math) and MA 242 (multivariable calc)"
   }
 ]

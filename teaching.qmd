@@ -1,0 +1,93 @@
+---
+title: "Teaching"
+---
+
+## Spring 2026
+
+I am on Scholarly Reassignment for the Spring 2026 semester. I am attending the trimester program on mathematical illustration at the Institut Henri Poincaré in Paris.
+
+## Past Teaching at NC State University
+
+### Fall 2025
+
+- MA 242H (Honors multivariable calculus)
+- MA 425 (Real analysis)
+
+### Spring 2025
+
+- MA 242H (Honors multivariable calculus)
+- MA 425 (Real analysis)
+
+### Fall 2024
+
+- MA 241 (Integral calculus)
+- MA 242H (Honors multivariable calculus)
+- MA 425 (Real analysis)
+
+### Spring 2024
+
+- MA 225 (Intro to proofs)
+- MA 407 (Abstract algebra)
+
+### Fall 2023
+
+- MA 242 (Multivariable calculus)
+- MA 425 (Real analysis)
+
+### Spring 2023
+
+- MA 241 (Integral calculus)
+- MA 242 (Multivariable calculus)
+
+### Fall 2022
+
+- MA 242 (Multivariable calculus)
+- MA 425H (Honors real analysis)
+
+### Spring 2022
+
+- MA 225 (Foundations of advanced mathematics)
+- MA 103 (Liberal arts mathematics)
+
+### Fall 2021
+
+- MA 242 (Multivariable calculus)
+- MA 103 (Liberal arts mathematics)
+
+### Spring 2021
+
+- MA 242 (Multivariable calculus)
+- MA 425H (Honors real analysis)
+
+### Fall 2020
+
+- MA 242 (Multivariable calculus)
+
+## Past Teaching at Harvard
+
+- Math 18b/19b (Linear algebra, probability and statistics with computing)
+- Math 21a (Multivariable calculus)
+- Math 1b (Integral calculus)
+- Math S-323 (Vectors--Mathematics for Teaching masters program course)
+- Math Mb (Precalculus and calculus blend)
+- Math 21b (Linear algebra)
+
+## Past Teaching at UC Santa Barbara
+
+- Differential calculus
+- Integral calculus
+- Inquiry-oriented linear algebra
+- Differential equations (and inquiry-oriented differential equations)
+- Vector calculus (and inquiry-oriented vector calculus)
+- Series and PDEs
+- Complex analysis II
+
+## Past Teaching at Cal Poly San Luis Obispo
+
+- Differential calculus
+- Integral calculus
+- Series and vectors
+- Multivariable calculus
+- Business calculus
+- Calculus for architecture
+- Linear algebra and differential equations

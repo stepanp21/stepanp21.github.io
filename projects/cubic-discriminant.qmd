@@ -1,10 +1,11 @@
 ---
 title: "Tangent Developable of a Twisted Cubic"
 author: "Stepan Paul and Adrien Abgrall"
-date: "2025-02-28"
+date: "2026-02-28"
 description: "Visulaizations of the tangent developable of a twisted cubic curve illustrating its ruling and flat metric."
 image: "twisted-cubic-tangent-developable.png"
 image-alt: "Grid on the tangent developable of a twisted cubic curve"
+categories: Illustration
 ---
 This is a page about the tangent developable of a twisted cubic.
 
