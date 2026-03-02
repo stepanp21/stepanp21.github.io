@@ -8,34 +8,86 @@ image-alt: "Grid on the tangent developable of a twisted cubic curve"
 ---
 This is a page about the tangent developable of a twisted cubic.
 
+<style>
+  .calculator-container {
+    width: 100%;
+    max-width: 900px;
+    height: 600px;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 768px) {
+    .calculator-container {
+      height: 300px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .calculator-container {
+      height: 250px;
+    }
+  }
+</style>
+
 <script src="https://www.desmos.com/api/v1.11/calculator.js?apiKey=4f603473e10e40a1ba9b9bc2e52866d1"></script>
 
-<div id="calculator" style="width: 600px; height: 400px;"></div>
+<div id="calculator" class="calculator-container"></div>
+
+<input id="a-slider" type="range" min="-2" max="2" step="0.1" value="-1">
+
 
 <script>
+  var aSlider = document.getElementById('a-slider');
+  var a = parseFloat(aSlider.value);
+
   var elt = document.getElementById('calculator');
   var options = {
     keypad: false,
     expressions: false
   }
-  var calculator = Desmos.GraphingCalculator(elt, options);
+  var calculator1 = Desmos.GraphingCalculator(elt, options);
+  calculator1.setExpression({id:'graph1', latex:`y= ${a}x^2`}); // initialize
+
+  aSlider.addEventListener('input', function() {
+    a = parseFloat(this.value);
+    calculator1.setExpression({id:'graph1', latex:`y= ${a}x^2`});
+  });
 </script>
+
+<!--path.push(`M ${edges[i][0]} ${edges[i][1]}`); // backticks alow for string interpolation-->
 
 <!-- Code to get this graph from Desmos:
 `curl -H 'Accept: application/json' https://www.desmos.com/calculator/0ovfwwmfrb > ~/desmos_stuff/mygraph.json` -->
 
 
-<div id="calculator2" style="width: 600px; height: 400px;"></div>
+<div id="calculator2" class="calculator-container"></div>
+
+<input id="a-slider2" type="range" min="0" max="1" step="0.1" value="1">
 
 <script>
+  var aSlider2 = document.getElementById('a-slider2');
+  var a2 = parseFloat(aSlider2.value);
+
   var elt = document.getElementById('calculator2');
   var options = {
+    keypad: false,
+    expressions: false
   }
-  var calculator = Desmos.Calculator3D(elt, options);
+  var calculator2 = Desmos.Calculator3D(elt, options);
+
+  
   
   fetch('cubic-discriminant-desmos.json')
     .then(response => response.json())
     .then(data => {
-      calculator.setState(data.state);
+      calculator2.setState(data.state);
+      calculator2.setExpression({id:'a-slider2', latex:`a=${a2}`}); //initialize
     });
+
+  
+
+  aSlider2.addEventListener('input', function() {
+    a2 = parseFloat(this.value);
+    calculator2.setExpression({id:'a-slider2', latex:`a=${a2}`});
+  });
 </script>
