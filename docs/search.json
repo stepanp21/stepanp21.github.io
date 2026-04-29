@@ -7,46 +7,11 @@
     "text": "(Longer “about” exposition)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Stepan Paul",
-    "section": "",
-    "text": "I am an Associate Teaching Professor of Mathematics at North Carolina State University where I’ve worked since 2020. I focus on teaching, curriculum development, mathematical illustration, and service to the undergraduate programs in the department.\nI am the Adminstrator for the Minor in Mathematics at NC State, and I coordinate MA 242 - Calculus III (multivariable and vector calculus) and MA 103 - Topics in Contemporary Mathematics (a liberal arts mathematics course). I also organize the departmental Teaching and Learning Seminar.\nI serve on the Departmental Faculty Advisor Committee, Mathematics Undergraduate Course and Curriculum Committee, Recruitment Committee, and Undergraduate Advising Committee."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Stepan Paul",
-    "section": "Education",
-    "text": "Education\nUniversity of California, Santa Barbara | Ph.D. in Mathematics, 2013\nDuke University | B.S. in Mathematics, 2007"
-  },
-  {
-    "objectID": "index.html#work-history",
-    "href": "index.html#work-history",
-    "title": "Stepan Paul",
-    "section": "Work History",
-    "text": "Work History\n\n\n\n\n\n\n\n\nNorth Carolina State University\nAssociate Teaching Professor\n2020 - present\n\n\nHarvard University\nPreceptor\n2017 - 2020\n\n\nUniversity of California, Santa Barbara\nEAF Lecturer\n2015 - 2013\n\n\nCalifornia Polytechnic State University, San Luis Obispo\nLecturer\n2013 - 2015"
-  },
-  {
-    "objectID": "index.html#fun-stufff",
-    "href": "index.html#fun-stufff",
-    "title": "Stepan Paul",
-    "section": "Fun stufff",
-    "text": "Fun stufff\nGraph with dot"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Illustration, Research\n\n\n\nGeometry and Topology Preserving Realizations of the Flat Klein Bottle\n\n\n\nStepan Paul\n\n\nApr 6, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeaching, Illustration\n\n\n\nFlexible paper-like plastic sheets endowed with non-Euclidean geometry, used for illustrating concepts in differential and axiomatic geometry.\n\n\n\nStepan Paul\n\n\nFeb 28, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIllustration\n\n\n\nA visualization of the spindle earth, a surface of revolution with constant positive curvature and two singular points.\n\n\n\nStepan Paul and Steve Trettel\n\n\nFeb 28, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIllustration\n\n\n\nVisulaizations of the tangent developable of a twisted cubic curve illustrating its ruling and flat metric.\n\n\n\nStepan Paul and Adrien Abgrall\n\n\nFeb 28, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIllustration\n\n\n\nVisulaizations of the tangent developable of a twisted cubic curve illustrating its ruling and flat metric.\n\n\n\nStepan Paul and Adrien Abgrall\n\n\nFeb 28, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIllustration\n\n\n\nVisulaizations of the tangent developable of a twisted cubic curve illustrating its ruling and flat metric.\n\n\n\nStepan Paul and Adrien Abgrall\n\n\nFeb 28, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIllustration\n\nTeaching\n\n\n\nNSF-funded curriculum development project for multivariable calculus\n\n\n\nStepan Paul, Shelby Stanhope, Paul Seeburger, and Deborah Moore-Russo\n\n\nMay 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIllustration\n\n\n\nOrigami contribution to the Polyplane exhibit\n\n\n\nStepan Paul\n\n\nApr 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeaching\n\n\n\nDepartmental Seminar\n\n\n\nStepan Paul and Rachel Abel\n\n\nAug 15, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeaching\n\n\n\nLiberal Arts Mathematics Course Deveolopment\n\n\n\nStepan Paul\n\n\nApr 15, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeaching\n\nIllustration\n\n\n\nMultivariable Calculus curriculum development project\n\n\n\nStepan Paul and Janet Chen\n\n\nAug 15, 2018\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/cubic-discriminant.html",
-    "href": "projects/cubic-discriminant.html",
-    "title": "Tangent Developable of a Twisted Cubic",
-    "section": "",
-    "text": "This is a page about the tangent developable of a twisted cubic."
+    "objectID": "about.html#department-roles-and-service",
+    "href": "about.html#department-roles-and-service",
+    "title": "About",
+    "section": "Department Roles and Service",
+    "text": "Department Roles and Service\n\nMathematics Minor Administrator\nFaculty Advisory Committee\nUndergraduate Course and Curriculum Committee\nUndergraduate Recruitment Committee\nUndergraduate Advising Committee\nCourse Coordinator: MA 103 (liberal arts math) and MA 242 (multivariable calc)"
   },
   {
     "objectID": "about.html#education",
@@ -61,6 +26,48 @@
     "title": "About",
     "section": "Work History",
     "text": "Work History\n\nNorth Carolina State University – Associate Teaching Professor – 2020 - present\nHarvard University – Preceptor – 2017 - 2020\nUniversity of California, Santa Barbara – EAF Lecturer – 2015 - 2013\nCalifornia Polytechnic State University, San Luis Obispo – Lecturer – 2013 - 2015"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Illustration, Research\n\n\n\nGeometry and Topology Preserving Realizations of the Flat Klein Bottle\n\n\n\nStepan Paul\n\n\nApr 6, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeaching, Illustration\n\n\n\nFlexible paper-like plastic sheets endowed with non-Euclidean geometry, used for illustrating concepts in differential and axiomatic geometry.\n\n\n\nStepan Paul\n\n\nFeb 28, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIllustration\n\nTeaching\n\n\n\nNSF-funded curriculum development project for multivariable calculus\n\n\n\nStepan Paul, Shelby Stanhope, Paul Seeburger, and Deborah Moore-Russo\n\n\nMay 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIllustration\n\n\n\nOrigami contribution to the Polyplane exhibit\n\n\n\nStepan Paul\n\n\nApr 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeaching\n\n\n\nDepartmental Seminar\n\n\n\nStepan Paul and Rachel Abel\n\n\nAug 15, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeaching\n\n\n\nLiberal Arts Mathematics Course Deveolopment\n\n\n\nStepan Paul\n\n\nApr 15, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeaching\n\nIllustration\n\n\n\nMultivariable Calculus curriculum development project\n\n\n\nStepan Paul and Janet Chen\n\n\nAug 15, 2018\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html#other-projects-and-involvements",
+    "href": "projects.html#other-projects-and-involvements",
+    "title": "Projects",
+    "section": "Other Projects and involvements",
+    "text": "Other Projects and involvements"
+  },
+  {
+    "objectID": "projects/ma103-restructure.html",
+    "href": "projects/ma103-restructure.html",
+    "title": "MA 103 Restructure",
+    "section": "",
+    "text": "Still from my MA 103 Lecture Videos\n\n\nIn the summer of 2021, I worked on revamping NC State’s MA 103: Topics in Contemporary Mathematics, a mathematics course for non-STEM majors. I designed the course with the philosophy that it should focus on applications of mathematics that:\n\nUse mathematics outside of the algebra-precalculus-calculus stream,\nWill be new to most students, and\nHave seen significant innovations in the last century or so\n\nThe course now covers topics in voting theory, network analysis, and cryptography, highlighting common threads in how innovations in mathematics are applied in the real world.\nThis course serves an important role as the last math course that many non-mathematically-inclined students take, with the potential to shape these students’ attitudes towards mathematics (and the attitudes they may pass down to their children). With support from the department and mini-grants from DELTA, the Libraries, DASA, and OAA, I made sweeping changes to the course intended to highlight compelling applications of mathematics for students outside of STEM fields by recording a new set of video lectures for distance education courses, adapting an open-source textbook, and creating online problem sets on a free platform (saving our students tens of thousands of dollars a year), and implementing a peer-grading system for written homework problems. These curricular materials are being used and will continue to be used and improved by other instructors for the course.\nI’ve posted sample videos from the course on Dijkstra’s Algorithm and Banzhaf Power Index on YouTube. Other course videos can be viewed by those with an NC State Unity ID."
+  },
+  {
+    "objectID": "projects/flat-klein-bottle/flat-klein-bottle.html",
+    "href": "projects/flat-klein-bottle/flat-klein-bottle.html",
+    "title": "Flat Klein Bottles",
+    "section": "",
+    "text": "A curved-crease origami model of piecewise-smooth path isometric image of a flat Klein bottle (Bridges paper).\n\n\n\n\n\nAn origami model of a piecewise linear locally isometric immersion of a flat Klein bottle (arXiv paper).\n\n\nI have done work on finding realizations of the flat Klein bottle in Euclidean 3-space, and I find it important to make physical sculptures illustrating the objects I’ve discovered.\n\nProject page"
+  },
+  {
+    "objectID": "projects/cp3d/calcplot3d.html",
+    "href": "projects/cp3d/calcplot3d.html",
+    "title": "CalcPlot3D",
+    "section": "",
+    "text": "CalcPlot3D Logo\n\n\nI work with the CalcPlot3D project team on curriculum development and running professional development workshops associated with the free web-app CalcPlot3D and the 3D printed models it can produce.\nWe are currently working under the IMPACT-CalcPlot3D NSF grant.\nTo stay current with the CalcPlot3D community, you can sign up for our newsletter."
+  },
+  {
+    "objectID": "projects/polyplane.html",
+    "href": "projects/polyplane.html",
+    "title": "Three Points of Defect",
+    "section": "",
+    "text": "{width = 60%}\n“Three Points of Defect” was my contribution to the Polyplane travelling exhibit in 2023—apparently the only origami submission. See the project page for details!"
   },
   {
     "objectID": "teaching.html",
@@ -105,67 +112,11 @@
     "text": "Past Teaching at Cal Poly San Luis Obispo\n\nDifferential calculus\nIntegral calculus\nSeries and vectors\nMultivariable calculus\nBusiness calculus\nCalculus for architecture\nLinear algebra and differential equations"
   },
   {
-    "objectID": "about.html#department-roles-and-service",
-    "href": "about.html#department-roles-and-service",
-    "title": "About",
-    "section": "Department Roles and Service",
-    "text": "Department Roles and Service\n\nMathematics Minor Administrator\nFaculty Advisory Committee\nUndergraduate Course and Curriculum Committee\nUndergraduate Recruitment Committee\nUndergraduate Advising Committee\nCourse Coordinator: MA 103 (liberal arts math) and MA 242 (multivariable calc)"
-  },
-  {
-    "objectID": "projects/flat-klein-bottle.html",
-    "href": "projects/flat-klein-bottle.html",
-    "title": "Tangent Developable of a Twisted Cubic",
+    "objectID": "projects/manipulative-calculus/manipulative-calculus.html",
+    "href": "projects/manipulative-calculus/manipulative-calculus.html",
+    "title": "Manipulative Calculus",
     "section": "",
-    "text": "This is a page about the tangent developable of a twisted cubic."
-  },
-  {
-    "objectID": "projects/pizza-hut.html",
-    "href": "projects/pizza-hut.html",
-    "title": "Tangent Developable of a Twisted Cubic",
-    "section": "",
-    "text": "This is a page about the tangent developable of a twisted cubic."
-  },
-  {
-    "objectID": "projects/real-analysis-textbook.html",
-    "href": "projects/real-analysis-textbook.html",
-    "title": "Tangent Developable of a Twisted Cubic",
-    "section": "",
-    "text": "This is a page about the tangent developable of a twisted cubic."
-  },
-  {
-    "objectID": "projects/calcplot3d.html",
-    "href": "projects/calcplot3d.html",
-    "title": "Tangent Developable of a Twisted Cubic",
-    "section": "",
-    "text": "This is a page about the tangent developable of a twisted cubic."
-  },
-  {
-    "objectID": "projects/constant-curvature-surface-shaders.html",
-    "href": "projects/constant-curvature-surface-shaders.html",
-    "title": "Tangent Developable of a Twisted Cubic",
-    "section": "",
-    "text": "This is a page about the tangent developable of a twisted cubic."
-  },
-  {
-    "objectID": "projects/twisted-cubic-tangent-developable/cubic-discriminant.html",
-    "href": "projects/twisted-cubic-tangent-developable/cubic-discriminant.html",
-    "title": "Tangent Developable of a Twisted Cubic",
-    "section": "",
-    "text": "This is a page about the tangent developable of a twisted cubic."
-  },
-  {
-    "objectID": "projects.html#other-projects-and-involvements",
-    "href": "projects.html#other-projects-and-involvements",
-    "title": "Projects",
-    "section": "Other Projects and involvements",
-    "text": "Other Projects and involvements"
-  },
-  {
-    "objectID": "projects/cp3d/calcplot3d.html",
-    "href": "projects/cp3d/calcplot3d.html",
-    "title": "CalcPlot3D",
-    "section": "",
-    "text": "CalcPlot3D Logo\n\n\nI work with the CalcPlot3D project team on curriculum development and running professional development workshops associated with the free web-app CalcPlot3D and the 3D printed models it can produce.\nWe are currently working under the IMPACT-CalcPlot3D NSF grant.\nTo stay current with the CalcPlot3D community, you can sign up for our newsletter."
+    "text": "Manipulative Calculus\n\n\nWhile working as a Preceptor at Harvard University, I co-led the Manipulative Calculus project Dr. Janet Chen on a project to create physical manipulatives for active learning lessons in multivariable and integral calculus.\nAt Harvard, The models have been in use since 2019 in Math 21a (multivariable calculus) and used by thousands of students. The course materials have been adopted and adapted at several other institutions as well."
   },
   {
     "objectID": "projects/teaching-and-learning-seminar/teaching-and-learning-seminar.html",
@@ -175,13 +126,6 @@
     "text": "Gradescope Panel, 2023\n\n\nI started the NC State Mathematics Department’s Teaching and Learning Seminar in 2022, and we have had dozens of speakers and panels since then. In the 2025-2026, I am co-organizing the seminar with Rachel Abel.\nRecorded sessions and slides can be found on here.\nIf you are interested in speaking or suggesting a speaker, please send me an email!"
   },
   {
-    "objectID": "projects/ma103-restructure.html",
-    "href": "projects/ma103-restructure.html",
-    "title": "MA 103 Restructure",
-    "section": "",
-    "text": "Still from my MA 103 Lecture Videos\n\n\nIn the summer of 2021, I worked on revamping NC State’s MA 103: Topics in Contemporary Mathematics, a mathematics course for non-STEM majors. I designed the course with the philosophy that it should focus on applications of mathematics that:\n\nUse mathematics outside of the algebra-precalculus-calculus stream,\nWill be new to most students, and\nHave seen significant innovations in the last century or so\n\nThe course now covers topics in voting theory, network analysis, and cryptography, highlighting common threads in how innovations in mathematics are applied in the real world.\nThis course serves an important role as the last math course that many non-mathematically-inclined students take, with the potential to shape these students’ attitudes towards mathematics (and the attitudes they may pass down to their children). With support from the department and mini-grants from DELTA, the Libraries, DASA, and OAA, I made sweeping changes to the course intended to highlight compelling applications of mathematics for students outside of STEM fields by recording a new set of video lectures for distance education courses, adapting an open-source textbook, and creating online problem sets on a free platform (saving our students tens of thousands of dollars a year), and implementing a peer-grading system for written homework problems. These curricular materials are being used and will continue to be used and improved by other instructors for the course.\nI’ve posted sample videos from the course on Dijkstra’s Algorithm and Banzhaf Power Index on YouTube. Other course videos can be viewed by those with an NC State Unity ID."
-  },
-  {
     "objectID": "projects/nep/nep.html",
     "href": "projects/nep/nep.html",
     "title": "Non-Euclidean ‘Paper’",
@@ -189,17 +133,10 @@
     "text": "Helicoid to Catenoid\n\n\nI make non-Euclidean “paper” by thermoforming sheets of plastic onto 3D printed surfaces. I focus on the potential of these models as teaching tools for studying non-Euclidean geometry and differential geometry. The ones shown above were part of my contribution to the Warped Realities: The Art of Differential Geometry exhibit at the National Museum of Mathematics Composite Gallery as part of the exhibition in Summer 2025.\n\nProject Page\nVideo from the Warped Realities exhibit\nBridges article\n3D Print Files"
   },
   {
-    "objectID": "projects/polyplane.html",
-    "href": "projects/polyplane.html",
-    "title": "Three Points of Defect",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Stepan Paul",
     "section": "",
-    "text": "{width = 60%}\n“Three Points of Defect” was my contribution to the Polyplane travelling exhibit in 2023—apparently the only origami submission. See the project page for details!"
-  },
-  {
-    "objectID": "projects/flat-klein-bottle/flat-klein-bottle.html",
-    "href": "projects/flat-klein-bottle/flat-klein-bottle.html",
-    "title": "Flat Klein Bottles",
-    "section": "",
-    "text": "A curved-crease origami model of piecewise-smooth path isometric image of a flat Klein bottle (Bridges paper).\n\n\n\n\n\nAn origami model of a piecewise linear locally isometric immersion of a flat Klein bottle (arXiv paper).\n\n\nI have done work on finding realizations of the flat Klein bottle in Euclidean 3-space, and I find it important to make physical sculptures illustrating the objects I’ve discovered.\n\nProject page"
+    "text": "I am an Associate Teaching Professor of Mathematics at North Carolina State University where I’ve worked since 2020. I focus on teaching, curriculum development, mathematical illustration, and service to the undergraduate programs in the department.\nI am the Adminstrator for the Minor in Mathematics at NC State, and I coordinate MA 242 - Calculus III (multivariable and vector calculus) and MA 103 - Topics in Contemporary Mathematics (a liberal arts mathematics course). I also organize the departmental Teaching and Learning Seminar.\nI serve on the Departmental Faculty Advisor Committee, Mathematics Undergraduate Course and Curriculum Committee, Recruitment Committee, and Undergraduate Advising Committee."
   }
 ]

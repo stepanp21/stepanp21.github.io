@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Stepan Paul and Adrien Abgrall">
-<meta name="dcterms.date" content="2026-02-28">
-<meta name="description" content="Visulaizations of the tangent developable of a twisted cubic curve illustrating its ruling and flat metric.">
+<meta name="author" content="Stepan Paul and Janet Chen">
+<meta name="dcterms.date" content="2018-08-15">
+<meta name="description" content="Multivariable Calculus curriculum development project">
 
-<title>Tangent Developable of a Twisted Cubic – Stepan Paul</title>
+<title>Manipulative Calculus – Stepan Paul</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,23 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-cf3f2c26eef976f46b51aa29f3e196e4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-cf3f2c26eef976f46b51aa29f3e196e4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,17 +72,17 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Stepan Paul</span>
     </a>
   </div>
@@ -93,15 +93,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects.html"> 
+    <a class="nav-link" href="../../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
@@ -115,20 +119,22 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Tangent Developable of a Twisted Cubic</h1>
-</div>
+<h1 class="title">Manipulative Calculus</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Teaching</div>
+    <div class="quarto-category">Illustration</div>
+  </div>
+  </div>
 
 <div>
   <div class="description">
-    Visulaizations of the tangent developable of a twisted cubic curve illustrating its ruling and flat metric.
+    Multivariable Calculus curriculum development project
   </div>
 </div>
 
@@ -138,14 +144,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Stepan Paul and Adrien Abgrall </p>
+             <p>Stepan Paul and Janet Chen </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 28, 2026</p>
+      <p class="date">August 15, 2018</p>
     </div>
   </div>
   
@@ -157,83 +163,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is a page about the tangent developable of a twisted cubic.</p>
-<style>
-  .calculator-container {
-    width: 100%;
-    max-width: 900px;
-    height: 600px;
-    margin: 0 auto;
-  }
-  
-  @media (max-width: 768px) {
-    .calculator-container {
-      height: 300px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .calculator-container {
-      height: 250px;
-    }
-  }
-</style>
-<script src="https://www.desmos.com/api/v1.11/calculator.js?apiKey=4f603473e10e40a1ba9b9bc2e52866d1"></script>
-<div id="calculator" class="calculator-container">
-
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="function-with-axes-ws.jpeg" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Manipulative Calculus</figcaption>
+</figure>
 </div>
-<p><input id="a-slider" type="range" min="-2" max="2" step="0.1" value="-1"></p>
-<script>
-  var aSlider = document.getElementById('a-slider');
-  var a = parseFloat(aSlider.value);
-
-  var elt = document.getElementById('calculator');
-  var options = {
-    keypad: false,
-    expressions: false
-  }
-  var calculator1 = Desmos.GraphingCalculator(elt, options);
-  calculator1.setExpression({id:'graph1', latex:`y= ${a}x^2`}); // initialize
-
-  aSlider.addEventListener('input', function() {
-    a = parseFloat(this.value);
-    calculator1.setExpression({id:'graph1', latex:`y= ${a}x^2`});
-  });
-</script>
-<!--path.push(`M ${edges[i][0]} ${edges[i][1]}`); // backticks alow for string interpolation-->
-<!-- Code to get this graph from Desmos:
-`curl -H 'Accept: application/json' https://www.desmos.com/calculator/0ovfwwmfrb > ~/desmos_stuff/mygraph.json` -->
-<div id="calculator2" class="calculator-container">
-
-</div>
-<p><input id="a-slider2" type="range" min="0" max="1" step="0.1" value="1"></p>
-<script>
-  var aSlider2 = document.getElementById('a-slider2');
-  var a2 = parseFloat(aSlider2.value);
-
-  var elt = document.getElementById('calculator2');
-  var options = {
-    keypad: false,
-    expressions: false
-  }
-  var calculator2 = Desmos.Calculator3D(elt, options);
-
-  
-  
-  fetch('cubic-discriminant-desmos.json')
-    .then(response => response.json())
-    .then(data => {
-      calculator2.setState(data.state);
-      calculator2.setExpression({id:'a-slider2', latex:`a=${a2}`}); //initialize
-    });
-
-  
-
-  aSlider2.addEventListener('input', function() {
-    a2 = parseFloat(this.value);
-    calculator2.setExpression({id:'a-slider2', latex:`a=${a2}`});
-  });
-</script>
+<p>While working as a Preceptor at Harvard University, I co-led the <a href="https://www.manipulativecalculus.com/home">Manipulative Calculus</a> project Dr.&nbsp;Janet Chen on a project to create physical manipulatives for active learning lessons in multivariable and integral calculus.</p>
+<p>At Harvard, The models have been in use since 2019 in Math 21a (multivariable calculus) and used by thousands of students. The course materials have been adopted and adapted at several other institutions as well.</p>
 
 
 
@@ -324,6 +261,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
