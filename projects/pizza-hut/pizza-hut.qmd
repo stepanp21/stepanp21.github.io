@@ -1,0 +1,14 @@
+---
+title: "Pizza Hut, Keyrings, and the Ghost of John Conway"
+author: "Stepan Paul"
+date: "2026-03-05"
+description: "Musings on John Conway's 2016 Pizza Hut keyring problem."
+image: "keyrings.png"
+image-alt: "Three interlocking circles"
+categories: Illustration
+draft: true
+---
+
+On Pi Day, 2016, John Conway wrote three puzzles for a Pizza Hut contest---the first person to submit a correct solution to each would receive free Pizza Hut pizza for a year. Two of the three puzzles were solved within hours. The final puzzle, the Keyring Problem, remains unsolved. Legend has it that Conway knew the solution but took it with him to his grave...
+
+The blog below includes my musings about Conway's Pizza Hut Keyring Problem over the last year or so.

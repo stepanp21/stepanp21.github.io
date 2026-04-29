@@ -6,6 +6,7 @@ description: "Visulaizations of the tangent developable of a twisted cubic curve
 image: "twisted-cubic-tangent-developable.png"
 image-alt: "Grid on the tangent developable of a twisted cubic curve"
 categories: Illustration
+draft: true
 ---
 This is a page about the tangent developable of a twisted cubic.
 

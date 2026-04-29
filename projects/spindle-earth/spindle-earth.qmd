@@ -6,4 +6,5 @@ description: "A visualization of the spindle earth, a surface of revolution with
 image: "spindle-earth-still.png"
 image-alt: "A spindle shaped globe"
 categories: Illustration
+draft: true
 ---

@@ -1,0 +1,13 @@
+---
+title: "Three Points of Defect"
+author: "Stepan Paul"
+date: "2023-04-01"
+description: "Origami contribution to the *Polyplane* exhibit"
+image: "images/threepointsofdefect.jpeg"
+image-alt: "origami polyhedron"
+categories: Illustration
+---
+
+!["Three Points of Defect" origami sculpture](images/threepointsofdefect.jpeg){width = 60%}
+
+"Three Points of Defect" was my contribution to the *Polyplane* travelling exhibit in 2023---apparently the only origami submission. See the [project page](https://docs.google.com/document/d/1TZmdh4xLF9R-3ZT0_bmShfE_8TWkV-0VdxDNWYAVNU8/edit?usp=sharing) for details!

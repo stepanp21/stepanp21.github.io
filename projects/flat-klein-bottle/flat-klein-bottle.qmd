@@ -1,0 +1,17 @@
+---
+title: "Flat Klein Bottles"
+author: "Stepan Paul"
+date: "2026-04-06"
+description: "Geometry and Topology Preserving Realizations of the Flat Klein Bottle"
+image: "paper-kb.jpeg"
+image-alt: "An origami Klein Bottle"
+categories: Illustration, Research
+---
+
+![A curved-crease origami model of piecewise-smooth path isometric image of a flat Klein bottle ([Bridges paper](https://archive.bridgesmathart.org/2021/bridges2021-47.html#gsc.tab=0)).](cyl-flat-kb.jpg){width=50%}
+
+![An origami model of a piecewise linear locally isometric immersion of a flat Klein bottle ([arXiv paper](https://arxiv.org/abs/2504.08826)).](paper-kb.jpeg){width=50%}
+
+I have done work on finding realizations of the flat Klein bottle in Euclidean 3-space, and I find it important to make physical sculptures illustrating the objects I've discovered.
+
+- [Project page](https://docs.google.com/document/d/1uM5zznTzRmvuM-YX50dSFJHQ7Z5HQsvEkY3Zk_sJLLk/edit?usp=sharing)

@@ -2,7 +2,7 @@ project:
   type: website
   resources:
     - "three-toy/"
-    - projects/*.json
+    - projects/*/*.json
   output-dir: docs
 
 website:
@@ -24,5 +24,4 @@ format:
       - yeti
     css: styles.css
     toc: false
-
-
+    link-external-newwindow: true
