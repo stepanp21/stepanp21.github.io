@@ -4,6 +4,7 @@ listing:
     contents: 
       - projects/*/*.qmd
       - projects/*.qmd
+      - external-links/external.yaml
     type: grid
     sort: "date desc"
     categories: true

@@ -5,7 +5,7 @@ date: "2026-04-06"
 description: "Geometry and Topology Preserving Realizations of the Flat Klein Bottle"
 image: "paper-kb.jpeg"
 image-alt: "An origami Klein Bottle"
-categories: Illustration, Research
+categories: [Illustration, Research]
 ---
 
 ![A curved-crease origami model of piecewise-smooth path isometric image of a flat Klein bottle ([Bridges paper](https://archive.bridgesmathart.org/2021/bridges2021-47.html#gsc.tab=0)).](cyl-flat-kb.jpg){width=50%}
