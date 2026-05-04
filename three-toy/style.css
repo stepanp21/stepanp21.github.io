@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* makes it handle light and dark mode properly */
+:root {
+	color-scheme: light dark;
+}
+
+body {
+	background-color: light-dark(#fff, #272833);
+}
+
+/* makes the scene take up the screen */
+#container {
+	height: 95vh;
+	width: 95vw;
+}
+
+#help {
+	left: 0;
+	border-bottom-right-radius: 4px;
+	&.hidden {
+		display: none;
+	}
+}
+
+aside {
+	background: gray;
+	padding: 4px;
+	position: absolute;
+	top: 0;
+}
+
+#function {
+	box-shadow: 2px 2px 2px darkgray;
+	padding: 8px;
+	border-bottom-left-radius: 4px;
+	right: 0;
+}
