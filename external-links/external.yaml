@@ -3,6 +3,9 @@
   date: 2026-05-01
   path: https://stepanp21.github.io/real-analysis/
   categories: [Teaching]
+  image: "external-links/real-analysis.png"
+  image-alt: "A screenshot from a real analysis textbook"
+  description: "I am working on an open-source real analysis textbook that incorporates Desmos graphics throughout."
 
 - title: "Binocular App"
   author: "Stepan Paul"
