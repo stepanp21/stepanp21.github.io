@@ -1,0 +1,14 @@
+- title: "Real Analysis Textbook"
+  author: "Stepan Paul"
+  date: 2026-05-01
+  path: https://stepanp21.github.io/real-analysis/
+  categories: [Teaching]
+
+- title: "Binocular App"
+  author: "Stepan Paul"
+  date: 2026-03-01
+  path: https://stepanp21.github.io/binocular-app
+  categories: [Illustration]
+  image: "external-links/BinocularApp.png"
+  image-alt: "Linked circles controlled by globes"
+  description: "A vibe-coded app that lets you visualize the parameter space of lines in projective three-space as a quotient of S^2 times S^2."
